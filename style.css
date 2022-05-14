@@ -1,0 +1,36 @@
+.button{
+    width: 60px;
+    padding: 14px;
+    margin: 0 4px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    font-size:25px;
+    font-weight: bold;
+    /* box-shadow: 3px 0px rgb(252, 252, 252);
+ */
+ box-shadow: 5px 5px 8px rgb(149, 154, 181 , 0.43), -5px -3px 10px rgb(255 255 255);
+    
+}
+
+.button:hover{
+    background-color: grey;
+}
+
+
+
+.row{
+    margin: 8px 0;
+    
+    text-align: center;
+    justify-content: center;
+}
+
+.row input{
+    margin: 4px;
+    padding: 14px 13px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    font-size: 20px;
+
+}
